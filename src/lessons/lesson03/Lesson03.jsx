@@ -1,5 +1,6 @@
 import MyButton from "../../components/myButton/MyButton";
-
+import UserCard from "../../components/userCard/UserCard";
+import Lesson04 from "../lesson04/Leson04";
 function Lesson03() {
   return (
     <div>
@@ -9,9 +10,11 @@ function Lesson03() {
         дочерним компонентам. Это один из основных механизмов передачи данных в
         React
       </p>
+      {/* <MyButton />
       <MyButton />
-      <MyButton />
-      <MyButton />
+      <MyButton /> */}
+      <UserCard name={'Bilbo'} age={45}lastname={'Baggins'}/>
+      <UserCard name={'Gendolf '} age={450}lastname={'White'}/>
     </div>
   );
 }
